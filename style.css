@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the dropdown button */
+.dropdown button {
+    background-color: #333;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style for the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style for the dropdown options */
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+/* Style for the dropdown options on hover */
+.dropdown-content a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+/* Show the dropdown content when the dropdown button is hovered over */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+header{
+background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./image/header-image.jpeg);
+width: 100%;
+height: 70vh;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.dropdown{
+    margin-left: auto;
+    padding-right: 10px;
+}
+header nav .signbtn{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+.signbtn i{
+    padding-right: 10px;
+}
+header nav img{
+    width: 200px;
+    height: 70px;
+}
+.text{
+    width: 30%;
+    color: white;
+    margin-right: 50%;
+    margin-left: 40%;
+    
+}
+.text h1, h2, .text p{
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+label{
+    margin-left: 50px;
+}
+label input{
+    width: 300px;
+    height: 40px;
+}
+label .btn{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+}
+/* -------------------------------------------------account------------------------------------ */
+ .account{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./image/signImage.png);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+ .sign-in{
+    display: grid;
+    background-color: rgba(0,0,0,0.8);
+    width: 25%;
+    height: 60vh;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ .sign-in h2{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.sign-in form{
+  display: grid;
+}
+.sign-in form input{
+  width: 350px;
+  height: 35px;
+  margin: auto;
+  background-color: #222;
+  color: #fff;
+  border: none;
+} 
+.logbtn{
+    width: 350px;
+    height: 35px;
+    margin: auto;
+    background-color: #f00;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 0;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 30px;
+}
+.check input{
+    display: none;
+}
+.sign-in i{
+    margin-left: 40px;
+    color: rgba(255, 255, 255, 0.468);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign-in h5{
+    margin-left: 40px;
+    font-weight: light;
+  color: rgba(255, 255, 255, 0.585);
+}
+.sign-in span{
+    font-size: 17px;
+    color: white;
+}
+.sign-in  a{
+    text-decoration: none;
+}
+.sign-in .page{
+    margin-left: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+/* ------------------------------------------------Boxes----------------------------------------- */
+.container{
+    display: grid;
+    background-color: #000;
+}
+.box1{
+   height: 15%;
+   margin-top: 70px;
+}
+.box1 p,h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+    margin:50px 10rem;
+    padding: 0;
+}
+.box1 img{
+    width: 500px;
+    height: 300px;
+    margin:0 15rem;
+    margin-bottom: 50px;
+    filter: drop-shadow(0 10px 20px #151515);
+}
+.box1 p{
+    font-size: 17px; 
+}
+/* ---------------------------------------------------FAQ-------------------------------------- */
+.faq-content{
+    height: 50vh;
+    background-color: #000;
+}
+.faq-content h1{
+    font-size: 30px;
+}
+.faqs{
+    display: grid;
+}
+.faq{
+    background-color: rgba(255, 255, 255, 0.302);
+    width: 40%;
+    margin: 10px 50% 10px 30%;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.faq_icon{
+    font-size: 1.2rem;
+    line-height: 1.0rem;
+    margin: 10px 20px;
+}
+.faq h4{
+    margin: 10px 20px;
+    font-family: sans-serif;
+}
+.search{
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+/* -----------------------------------------footer--------------------------------------- */
+footer{
+    background-color: #000;
+    color: rgba(255, 255, 255, 0.665);
+    padding-top: 50px;
+    padding-left: 100px;
+    display: grid;
+}
+footer .foot{
+    display: flex;
+    padding-top: 50px;
+}
+footer div{
+    display: grid;
+    padding: 5px 100px;
+}
+footer div a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.761);
+    margin-bottom: 10px;
+}
+#drop{
+   padding: 0;
+}
